@@ -164,7 +164,9 @@ class SignUp extends Component {
               <button type="submit" onClick={this.createUser}>
                 Create Account
               </button>
-              <small>Already Have an Account?</small>
+              <small>
+                <a>Already Have an Account?</a>
+              </small>
             </div>
           </form>
         </div>
